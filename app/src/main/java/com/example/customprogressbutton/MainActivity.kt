@@ -19,4 +19,18 @@ class MainActivity : AppCompatActivity() {
 
         }
     }
+
+//    private fun setObservers() {
+//        viewModel.loginrequest.observe(this, Observer {resource->
+//            login_btn.load(resource is Resource.Loading)
+//            when(resource){
+//                is Resource.Success -> {
+//
+//                }
+//                is Resource.Error -> {
+//
+//                }
+//            }
+//        })
+//    }
 }
